@@ -1,0 +1,31 @@
+{
+  "name": "elm-mustache",
+  "version": "1.0.0",
+  "description": "Mustache in Elm",
+  "main": "src/Mustache.elm",
+  "scripts": {
+    "test": "elm-format --validate src && elm-test tests/Tests.elm && elm-verify-examples --fail-on-warn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TSFoster/elm-mustache.git"
+  },
+  "keywords": [
+    "elm",
+    "mustache",
+    "templating",
+    "templates"
+  ],
+  "author": "T.S.Foster",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/TSFoster/elm-mustache/issues"
+  },
+  "homepage": "https://github.com/TSFoster/elm-mustache#readme",
+  "devDependencies": {
+    "elm": "^0.19.0-bugfix2",
+    "elm-format": "^0.8.0",
+    "elm-test": "^0.19.0-beta9",
+    "elm-verify-examples": "^3.0.0"
+  }
+}
